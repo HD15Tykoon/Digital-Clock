@@ -1,0 +1,53 @@
+/*
+**  Author: Harsh Dagar
+**  Lang: CSS
+**  Date Created: 20/Jan/2019       Date Modified: 21/Jan/2019
+*/
+@font-face{
+    font-family: 'Oxygen',sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Oxygen");
+}
+html,body{
+     height: 100%;
+}
+#head{
+    border-radius: 0.6em;
+}
+#clock{
+    font-family: 'Oxygen',sans-serif;
+    text-align: center;
+    margin: auto;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#clock:hover{
+    border:1px dashed black;
+    width: 10em;
+    border-radius: 50%;
+    height: 10em;
+}
+#time{
+    font-size: 1.2em;
+    margin: 3.6em auto auto auto;
+    width: 99%;
+    background-color: white;
+    padding: 2px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+    transition-duration: 3s;
+}
+#time:hover{
+    border-radius: 0.6em;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+span{
+    opacity: 1;
+}
+#inter{
+    font-size: 0.6em;
+}
+#notice{
+    color: red;
+    text-align: center;
+    margin-top:6em;
+}
